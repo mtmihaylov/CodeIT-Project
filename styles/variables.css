@@ -1,0 +1,10 @@
+:root {
+  --main-color: #c74200;
+
+  --fw-semiBold: 600;
+  --fw-bold: 700;
+
+  --small: 12px;
+  --medium: 16px;
+  --large: 24px;
+}
