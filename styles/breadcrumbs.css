@@ -2,6 +2,7 @@
 
 .breadcrumb-section {
   background-image: url('../images/vector-image.jpg');
+  filter: brightness(98%);
 }
 
 .breadcrumb, .h2 {
