@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 @import './header.css';
 @import './breadcrumbs.css';
+@import './productCard.css';
 
 body {
   font-family: 'Montserrat', sans-serif !important

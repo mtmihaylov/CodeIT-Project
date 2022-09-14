@@ -18,12 +18,9 @@
   color: var(--grey-color) !important;
 }
 
-.bag {
+.bi-bag-fill::before {
   color: var(--orange-color);
-}
-
-.bi-bag::before {
-  margin-bottom: -2px;
+  /* align-self: flex-start; */
 }
 
 .navbar-brand__code-it {
