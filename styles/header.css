@@ -1,9 +1,5 @@
 @import './variables.css';
 
-.header {
-  padding: 25px 0px !important;
-}
-
 .navbar {
   font-weight: var(--fw-bold);
 }
@@ -19,10 +15,11 @@
   width: 100px;
   font-weight: var(--fw-bold) !important;
   font-size: 14px !important;
+  color: var(--grey-color) !important;
 }
 
 .bag {
-  color: var(--main-color);
+  color: var(--orange-color);
 }
 
 .bi-bag::before {
@@ -30,13 +27,13 @@
 }
 
 .navbar-brand__code-it {
-  color: var(--main-color)
+  color: var(--orange-color)
 }
 
 .navbar-brand__code-it::before, .active::before {
   content: '';
   position: absolute;
-  background-color: var(--main-color);
+  background-color: var(--orange-color);
   height: 3px;
   width: 8px;
   top: 30px;
@@ -50,16 +47,28 @@
   letter-spacing: 7px;  
   font-size: var(--small);
   font-weight: var(--fw-semiBold);
-  margin-top: -4px;
+  margin-top: -2px;
+  color: var(--grey-color);
 }
 
 .navigation {
   font-size: var(--small);
 }
 
+.nav-link {
+  color: var(--grey-color) !important;
+}
+
+.active-page {
+  color: var(--orange-color) !important;
+}
+
 .bi-search {
   margin-top: -4px;
 }
+
+/* Search button */
+
 
 @media (max-width: 992px) {
   .shopping-bag {

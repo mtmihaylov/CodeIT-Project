@@ -15,20 +15,18 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="navbar navbar-expand-lg d-flex justify-between header">
+    <header class="navbar navbar-expand-lg py-5">
       <div class="container">
         <a href="#" class="navbar-brand d-flex flex-column position-relative">
           <div class="navbar-brand__code-it">
             Code<span class="text-black">IT</span>
           </div>
-          <span class="text-uppercase text-secondary navbar-brand__store"
-            >store</span
-          >
+          <span class="text-uppercase navbar-brand__store">store</span>
         </a>
 
         <nav class="d-flex align-items-center navigation flex-lg-row-reverse">
           <div
-            class="shopping-bag btn border border-secondary border-2 rounded-0 position-relative text-start d-flex align-items-center text-secondary"
+            class="shopping-bag btn border border-secondary border-2 rounded-0 position-relative text-start d-flex align-items-center"
           >
             <i class="bi bi-bag bag h5 me-1"></i>
             $
@@ -69,7 +67,10 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav text-uppercase ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a
+                    class="nav-link active active-page"
+                    aria-current="page"
+                    href="#"
                     >Home</a
                   >
                 </li>
@@ -118,6 +119,23 @@
         </nav>
       </div>
     </header>
+    <section class="py-5 breadcrumb-section">
+      <div
+        class="container d-flex justify-content-between align-items-center text-uppercase navigation"
+      >
+        <h2 class="h2 fw-bold">My Wishlist</h2>
+        <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a class="breadcrumb-home" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item text-secondary" aria-current="page">
+              My Wishlist
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

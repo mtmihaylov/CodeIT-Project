@@ -1,0 +1,22 @@
+@import './variables.css';
+
+.breadcrumb-section {
+  background-image: url('../images/vector-image.jpg');
+}
+
+.breadcrumb, .h2 {
+  margin: 0 !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+.breadcrumb-home {
+  text-decoration: none;
+  color: var(--grey-color) !important;
+}
+
+.breadcrumb-item {
+  font-weight: var(--fw-semiBold);
+}
