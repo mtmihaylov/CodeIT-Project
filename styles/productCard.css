@@ -38,3 +38,10 @@
   font-weight: var(--fw-semiBold);
   color: var(--grey-color);
 }
+
+@media (max-width: 575.98px) {
+  .mobile-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
